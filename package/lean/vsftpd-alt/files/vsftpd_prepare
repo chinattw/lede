@@ -234,6 +234,7 @@ fi
 
 # local user
 output_const "allow_writeable_chroot" YES
+output_const "chroot_local_user" YES
 output_const "secure_chroot_dir" $CHROOT_DIR
 
 local_root=$(get_value 'local' root)
